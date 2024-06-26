@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Meow.md","permalink":"/meow/"}
+{"dg-publish":true,"dg-path":"Meow.md","permalink":"/meow/","hide":true}
 ---
 
 
