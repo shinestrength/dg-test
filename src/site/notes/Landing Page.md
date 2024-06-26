@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/landing-page/","tags":["gardenEntry"],"dgHomeLink":"false","dgShowFileTree":"false","dgEnableSearch":"false"}
+{"dg-publish":true,"permalink":"/landing-page/","hide":true,"tags":["gardenEntry"],"dgHomeLink":"false","dgShowFileTree":"false","dgEnableSearch":"false"}
 ---
 
 <center><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 270" width="372" height="270">
