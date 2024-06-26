@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/testu/","hide":true,"tags":["gardenEntry"],"dgHomeLink":"false","dgShowFileTree":"false","dgEnableSearch":"false"}
 ---
 
- This is a test [[Stuff/shinestrength\|shinestrength]]
+ This is a test [[Non Stuff/shinestrength\|shinestrength]]
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 270" width="372" height="270">
   <!-- svg-source:excalidraw -->
