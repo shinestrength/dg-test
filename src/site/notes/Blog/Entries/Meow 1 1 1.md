@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/entries/meow-1-1-1/"}
+{"dg-publish":true,"dg-path":"Meow 1 1 1.md","permalink":"/meow-1-1-1/"}
 ---
 
 
