@@ -17,7 +17,7 @@ Yes, this is a link.
 		<a href="https://syleria.netlify.app/">Syleria</a>
 	</div>
 	<div style="display: flex; flex-direction: column; justify-content: center;align-items: center">
-		<img style="padding: 10px" src="https://m.media-amazon.com/images/M/MV5BZTExOTkyNTMtYjczYS00NWU5LTlkN2ItMTM2MjYzYTVkOWRjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"/>
+		<img style="padding: 10px" src="https://github.com/shinestrength/memex/blob/master/content/media/arcadeReviewCover.jpeg?raw=true"/>
 		<a href="https://syleria.netlify.app/">Syleria</a>
 	</div>
 </div>
