@@ -5,8 +5,18 @@
 
 Yes, this is a link.
 
-![calm.jpg](/img/user/Non%20Stuff/calm.jpg)
+<html>
+    <head>
+        <style>
+            <body style = "max-width: 1024px">
+            <div class = "content" style = "max-width: 1024px"></div>
+        </style>    
+    </head>
+</html>
 
+
+
+![calm.jpg](/img/user/Non%20Stuff/calm.jpg)
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
 	<div style="display: flex; flex-direction: column; justify-content: center;align-items:center;">
@@ -22,4 +32,3 @@ Yes, this is a link.
 		<a href="https://syleria.netlify.app/">Syleria</a>
 	</div>
 </div>
-
