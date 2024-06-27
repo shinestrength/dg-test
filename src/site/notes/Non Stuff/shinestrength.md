@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/non-stuff/shinestrength/"}
+{"dg-publish":true,"permalink":"/non-stuff/shinestrength/","dgEnableSearch":"false"}
 ---
 
 
