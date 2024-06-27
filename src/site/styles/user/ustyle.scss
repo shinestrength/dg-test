@@ -424,51 +424,11 @@ HOMEPAGE
   }
 }
 
-/* ----------------------
-FORMS
----------------------- */
 
-form, .box {
-  padding: 1em;
-  background: $color-secondary;
-  color: #fff;
-  border-radius: 4px;
-  margin-bottom: 3em;
-  @media (min-width: 720px) {
-    padding: 1em 3.6em;
-  }
-  p {
-    text-align: center;
-  }
-}
 
-input#bd-email {
-  padding: 0.25em 0.5em;
-  margin: 0.5em 0;
-  width: 92%;
-  background: $color-background;
-  border: 1px solid #fff;
-  font-family: $font-family;
-  @media (min-width: 720px) {
-    margin: 0 0.5em 0 0.25em;
-    width: 250px;
-  }
-}
 
-input.btn {
-  background: #ffb4a3;
-  border: 1px solid #ffb4a3;
-  color: $color-secondary;
-  padding: 0.25em 0.5em;
-  font-family: $font-family;
-  transition:  0.2s;
 
-  &:hover {
-    background: $color-primary;
-    color: #ffb4a3;
-    border-color: #ffb4a3;
-    cursor: pointer;
-    
-  }
-}
+
+
+
 
