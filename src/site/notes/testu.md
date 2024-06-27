@@ -4,7 +4,7 @@
 
  
 
- Hi, I'm a face. You might be interested in the [[Writing/Writing\|Writing]], or what I'm up to now. 
+ Hi, I'm a face. You might be interested in the [[Writing\|Writing]], or what I'm up to now. 
 
 
  This is a test [[Non Stuff/shinestrength\|shinestrength]]
