@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/non-stuff/shinestrength/","dgEnableSearch":"false"}
 ---
 
-
+	
 
 
 Yes, this is a link.
@@ -36,9 +36,11 @@ Yes, this is a link.
 
 
 
-- ![flypigsmall.gif](/img/user/Non%20Stuff/flypigsmall.gif)
-- ![flypig.gif](/img/user/Non%20Stuff/flypig.gif)
-- ![calm.jpg](/img/user/Non%20Stuff/calm.jpg)
-- ![flypigsmall.gif](/img/user/Non%20Stuff/flypigsmall.gif)
 
+- [[Blog/Entries/Meow\|Meow]]
+- [[Blog/Entries/Meow 1\|Meow 1]]
+- [[Blog/Entries/Meow 1 1\|Meow 1 1]]
+- [[Blog/Entries/Meow 1 1 1\|Meow 1 1 1]]
+
+{ .block-language-dataview}
 
