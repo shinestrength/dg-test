@@ -1,1 +1,23 @@
-<img src="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+
+{% if metatags %}
+    {% for name, content in metatags %}
+        <meta name="{{ name }}" content="{{ content }}">
+    {% endfor %}
+    {% if not metatags["og:image"] %}
+        {% if tags and "gardenEntry" in tags %}
+            <meta name="og:image" content="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+        {% elif noteIcon in [1, 2, 3]%}
+            <meta name="og:image" content="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+        {% else %}
+            <meta name="og:image" content="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+        {% endif %}
+    {% endif %}
+{% else %}
+    {% if tags and "gardenEntry" in tags %}
+            <meta name="og:image" content="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+    {% elif noteIcon in [1, 2, 3] %}
+        <meta name="og:image" content="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+    {% else %}
+        <meta name="og:image" content="https://raw.githubusercontent.com/shinestrength/dg-test/3af50d62da7641e102137768c969671359d7ef92/src/site/img/user/Non%20Stuff/flypig.gif">
+    {% endif %}
+{% endif %}
