@@ -37,10 +37,10 @@ Yes, this is a link.
 
 
 
-- [[Blog/Entries/Meow\|Meow]]: ![gallery/1.jpeg]
-- [[Blog/Entries/Meow 1\|Meow 1]]: \-
-- [[Blog/Entries/Meow 1 1\|Meow 1 1]]: \-
-- [[Blog/Entries/Meow 1 1 1\|Meow 1 1 1]]: \-
+- [[Blog/Entries/Meow\|Meow]]: ![gallery/1.jpeg](gallery/1.jpeg)
+- [[Blog/Entries/Meow 1\|Meow 1]]: ![gallery/2.jpeg](gallery/2.jpeg)
+- [[Blog/Entries/Meow 1 1\|Meow 1 1]]: ![gallery/3.jpeg](gallery/3.jpeg)
+- [[Blog/Entries/Meow 1 1 1\|Meow 1 1 1]]: ![gallery/4.jpeg](gallery/4.jpeg)
 
 { .block-language-dataview}
 
