@@ -44,3 +44,14 @@ Yes, this is a link.
 
 { .block-language-dataview}
 
+
+<ul class="two-col-gallery">
+    <li>
+        <img decoding="async" loading="lazy" src="https://github.com/shinestrength/memex/blob/master/content/media/arcadeReviewCover.jpeg?raw=true" data-id="2611"></li>
+    <li>
+        <img decoding="async" loading="lazy" src="https://github.com/shinestrength/memex/blob/master/content/media/arcadeReviewCover.jpeg?raw=true" ></li>
+    <li>
+        <img decoding="async" loading="lazy"  src="https://github.com/shinestrength/memex/blob/master/content/media/arcadeReviewCover.jpeg?raw=true"></li>
+    <li>
+        <img decoding="async" loading="lazy" src="https://github.com/shinestrength/memex/blob/master/content/media/arcadeReviewCover.jpeg?raw=true" alt="Sketchnote of Design Ops talk"></li>
+</ul>
