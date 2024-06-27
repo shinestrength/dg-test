@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/non-stuff/shinestrength/","contentClasses":"gallery","tags":["gardenEntry"],"dgEnableSearch":"false"}
+{"dg-publish":true,"permalink":"/non-stuff/shinestrength/","contentClasses":"gallery","dgEnableSearch":"false"}
 ---
 
 
