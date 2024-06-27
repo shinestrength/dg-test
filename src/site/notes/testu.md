@@ -3,15 +3,11 @@
 ---
 
  
- <center>
+
  Hi, I'm a face. You might be interested in the [[Blog/Blog\|Blog]], or what I'm up to now. 
 
- </center>
- <br>
- 
-<center>
+
  This is a test [[Non Stuff/shinestrength\|shinestrength]]
- </center> <br>
 
 
 <center>
