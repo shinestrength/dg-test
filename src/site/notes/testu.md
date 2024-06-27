@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/testu/","hide":true,"tags":["gardenEntry"],"dgHomeLink":"false","dgShowFileTree":"false","dgEnableSearch":"false"}
+{"dg-publish":true,"permalink":"/testu/","hide":true,"tags":["gardenEntry"],"dgEnableSearch":"false"}
 ---
 
  
