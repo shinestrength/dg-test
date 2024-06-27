@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stuff/doctor-man/doctor-man/"}
+{"dg-publish":true,"permalink":"/stuff/doctor-man/doctor-man/","dgEnableSearch":"false"}
 ---
 
 

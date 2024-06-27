@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/stuff/yet-more-stuff/"}
+{"dg-publish":true,"permalink":"/stuff/yet-more-stuff/","dgEnableSearch":"false"}
 ---
 
 
