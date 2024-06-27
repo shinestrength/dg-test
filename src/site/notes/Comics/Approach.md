@@ -4,4 +4,4 @@
 
 # Approach
 
-![c1.png](/img/user/gallery/c1.png)![flypigsmall.gif](/img/user/Non%20Stuff/flypigsmall.gif)![flypig.gif](/img/user/Non%20Stuff/flypig.gif)
+![c1.png](/img/user/gallery/c1.png)![c2.png](/img/user/gallery/c2.png)![c1.png](/img/user/gallery/c1.png)![c2.png](/img/user/gallery/c2.png)
