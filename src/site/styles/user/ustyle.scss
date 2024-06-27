@@ -1,6 +1,6 @@
 $color-primary: hsl(0, 0%, 10%);
 $color-secondary: #0a2399;
-$color-text: rgb(60,60,60);
+/*$color-text: rgb(60,60,60);*/
 $color-subtext: hsl(0, 0%, 30%);
 $color-border: $color-primary;
 $color-box-background: white;
@@ -12,7 +12,7 @@ $border-radius: 4px;
 
 body {
   line-height: 1.55;
-  color: $color-text !important;
+  /*color: $color-text !important;*/
   font-size: 1.12rem;
   /*background: $color-background url(/img/user/assets/bg.png);*/
   padding-left: 1.7rem !important;
