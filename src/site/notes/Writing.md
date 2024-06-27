@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/writing/","pinned":"true","dgEnableSearch":"false"}
+{"dg-publish":true,"dg-path":".md","permalink":"//","pinned":"true","dgEnableSearch":"false"}
 ---
 
 
