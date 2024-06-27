@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/comics/approach/"}
+{"dg-publish":true,"permalink":"/comics/approach/","dgEnableSearch":"false"}
 ---
 
 # Approach
