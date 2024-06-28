@@ -4,6 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .quote-container {
+            text-align: center;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .quote-container p {
+            font-size: 12pt;
+            color: grey;
+            display: none; /* Hide all quotes initially */
+        }
+        
+        /* Show only the first quote initially */
+        .quote-container p:first-child {
+            display: block;
+        }
+        
+        /* Use CSS animation to rotate quotes every few seconds */
+        @keyframes rotateQuotes {
+            0% { opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+        
+        /* Apply animation to all quotes */
+        .quote-container p {
+            animation: rotateQuotes 9s infinite;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,11 +45,12 @@
     <a href="https://www.instagram.com/shinestrength/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
     <a href="https://x.com/shinestrength"><i class="fa fa-twitter" style="font-size:24px"></i></a>
 </p>
-<p align="center">
-<em>powerful shins, great shin strength</em>
-</p>
 
-
+<div class="quote-container">
+    <p>powerful shins, excellent shin strength</p>
+    <p>the toothians communicate via [makes tooth clacking sounds]</p>
+    <p>is that bradley?</p>
+</div>
 
 </body>
 </html>
