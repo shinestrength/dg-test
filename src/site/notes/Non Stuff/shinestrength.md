@@ -4,7 +4,7 @@
 
 
 
-Yes, this is a link.
+Bro, this is like a gallery and stuff.
 
 
 - [[Writing/Entries/Meow\|Meow]]: ![Non Stuff/flypigsmall.gif|flypigsmall.gif](/img/user/Non%20Stuff/flypigsmall.gif)
