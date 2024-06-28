@@ -10,26 +10,12 @@
             background-color: transparent;
             padding: 20px;
             border-radius: 10px;
-            font-size: 12pt; /* Font size adjustment */
         }
         
         .quote {
             font-size: 1.5em;
             color: grey;
             display: none; /* Hide all quotes initially */
-        }
-
-        /* Use CSS to randomly display one quote on page load */
-        .quote:nth-of-type(1) { order: 2; }
-        .quote:nth-of-type(2) { order: 1; }
-        .quote:nth-of-type(3) { order: 3; }
-        .quote:nth-of-type(4) { order: 6; }
-        .quote:nth-of-type(5) { order: 4; }
-        .quote:nth-of-type(6) { order: 5; }
-        
-        /* Ensure one quote is displayed randomly */
-        .quote-container .quote:first-child {
-            display: block; /* Display the first quote initially */
         }
     </style>
 </head>
@@ -46,18 +32,36 @@
     <p class="quote">powerful shins, excellent shin strength</p>
     <p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
     <p class="quote">is that bradley?</p>
-    <p class="quote">this is another quote</p>
-    <p class="quote">here's yet another quote</p>
-    <p class="quote">one more for good measure</p>
 </div>
 
 <script>
-    // JavaScript for randomizing quotes
-    document.addEventListener('DOMContentLoaded', function() {
+    // Function to select a random quote and display it
+    function displayRandomQuote() {
+        // Select all quote elements
         var quotes = document.querySelectorAll('.quote');
-        var randomIndex = Math.floor(Math.random() * quotes.length);
-        quotes[randomIndex].style.display = 'block';
-    });
+        // Initialize variables
+        var validQuotes = [];
+        
+        // Filter quotes to include only non-empty and sufficiently long quotes
+        quotes.forEach(function(quote) {
+            if (quote.textContent.trim().length > 0 && quote.textContent.trim().length >= 10) {
+                validQuotes.push(quote);
+            }
+        });
+
+        // Check if there are valid quotes to display
+        if (validQuotes.length > 0) {
+            // Calculate a random index
+            var randomIndex = Math.floor(Math.random() * validQuotes.length);
+            // Show the selected quote
+            validQuotes[randomIndex].style.display = 'block';
+        } else {
+            console.error('No valid quotes found.');
+        }
+    }
+
+    // Call the function when the page loads
+    window.onload = displayRandomQuote;
 </script>
 
 </body>
