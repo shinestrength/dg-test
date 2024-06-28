@@ -8,32 +8,14 @@
         .quote-container {
             text-align: center;
             background-color: transparent;
-            padding: 20px;
-            border-radius: 10px;
+            padding: 5px;
+            border-radius: 2px;
         }
         
-        .quote-container p {
+        .quote {
             font-size: 12pt;
             color: grey;
             display: none; /* Hide all quotes initially */
-        }
-        
-        /* Show only the first quote initially */
-        .quote-container p:first-child {
-            display: block;
-        }
-        
-        /* Use CSS animation to rotate quotes every few seconds */
-        @keyframes rotateQuotes {
-            0% { opacity: 0; }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { opacity: 0; }
-        }
-        
-        /* Apply animation to all quotes */
-        .quote-container p {
-            animation: rotateQuotes 9s infinite;
         }
     </style>
 </head>
@@ -47,10 +29,25 @@
 </p>
 
 <div class="quote-container">
-    <p>powerful shins, excellent shin strength</p>
-    <p>the toothians communicate via [makes tooth clacking sounds]</p>
-    <p>is that bradley?</p>
+    <p class="quote">powerful shins, excellent shin strength</p>
+    <p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
+    <p class="quote">is that bradley?</p>
 </div>
+
+<script>
+    // Function to select a random quote and display it
+    function displayRandomQuote() {
+        // Select all quote elements
+        var quotes = document.querySelectorAll('.quote');
+        // Calculate a random index
+        var randomIndex = Math.floor(Math.random() * quotes.length);
+        // Show the selected quote
+        quotes[randomIndex].style.display = 'block';
+    }
+
+    // Call the function when the page loads
+    window.onload = displayRandomQuote;
+</script>
 
 </body>
 </html>
