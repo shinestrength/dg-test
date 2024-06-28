@@ -10,29 +10,12 @@
             background-color: transparent;
             padding: 20px;
             border-radius: 10px;
-            font-size: 12pt; /* Font size adjustment */
         }
         
         .quote {
-            font-size: 12pt;
+            font-size: 1.5em;
             color: grey;
             display: none; /* Hide all quotes initially */
-        }
-
-        /* Ensure one quote is randomly selected */
-        .quote:nth-child(1) { order: 1; }
-        .quote:nth-child(2) { order: 2; }
-        .quote:nth-child(3) { order: 3; }
-        .quote:nth-child(4) { order: 4; }
-        .quote:nth-child(5) { order: 5; }
-        .quote:nth-child(6) { order: 6; }
-        
-        .quote-container:hover .quote {
-            display: none; /* Hide all quotes on hover */
-        }
-        
-        .quote-container:hover .quote:nth-child(1) {
-            display: block; /* Show the first quote on hover */
         }
     </style>
 </head>
@@ -49,10 +32,22 @@
     <p class="quote">powerful shins, excellent shin strength</p>
     <p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
     <p class="quote">is that bradley?</p>
-    <p class="quote">this is another quote</p>
-    <p class="quote">here's yet another quote</p>
-    <p class="quote">one more for good measure</p>
 </div>
+
+<script>
+    // Function to select a random quote and display it
+    function displayRandomQuote() {
+        // Select all quote elements
+        var quotes = document.querySelectorAll('.quote');
+        // Calculate a random index
+        var randomIndex = Math.floor(Math.random() * quotes.length);
+        // Show the selected quote
+        quotes[randomIndex].style.display = 'block';
+    }
+
+    // Call the function when the page loads
+    window.onload = displayRandomQuote;
+</script>
 
 </body>
 </html>
