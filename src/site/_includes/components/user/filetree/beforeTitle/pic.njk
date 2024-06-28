@@ -52,10 +52,11 @@
        
     ];
 
-    function generateQuote() {
-        const randomIndex = Math.floor(Math.random() * siteQuotes.length);
-        document.getElementById('quote').innerText = siteQuotes[randomIndex];
-    }
+  function generateQuote() {
+    const randomIndex = Math.floor(Math.random() * siteQuotes.length);
+    console.log('Generated Quote:', siteQuotes[randomIndex]);  // Add this line for debugging
+    document.getElementById('quotesite').innerText = siteQuotes[randomIndex];
+}
 
     // Generate a quote when the page loads
     window.onload = generateQuote;
