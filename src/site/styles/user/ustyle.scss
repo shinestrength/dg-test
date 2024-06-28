@@ -52,7 +52,13 @@ h2, .markdown-rendered h2, .HyperMD-header-2, .HyperMD-list-line .cm-header-2{
   width: 100%;
 }
 
+
+/* hide the original title */
 .filetree-sidebar h1{
+display: none;
+}
+
+h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1{
 display: none;
 }
 
