@@ -8,14 +8,19 @@
         .quote-container {
             text-align: center;
             background-color: transparent;
-            padding: 5px;
-            border-radius: 2px;
+            padding: 20px;
+            border-radius: 10px;
         }
         
         .quote {
-            font-size: 12pt;
+            font-size: 1.5em;
             color: grey;
             display: none; /* Hide all quotes initially */
+        }
+
+        /* Ensure one quote is always visible */
+        .quote:first-child {
+            display: block;
         }
     </style>
 </head>
@@ -33,21 +38,6 @@
     <p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
     <p class="quote">is that bradley?</p>
 </div>
-
-<script>
-    // Function to select a random quote and display it
-    function displayRandomQuote() {
-        // Select all quote elements
-        var quotes = document.querySelectorAll('.quote');
-        // Calculate a random index
-        var randomIndex = Math.floor(Math.random() * quotes.length);
-        // Show the selected quote
-        quotes[randomIndex].style.display = 'block';
-    }
-
-    // Call the function when the page loads
-    window.onload = displayRandomQuote;
-</script>
 
 </body>
 </html>
