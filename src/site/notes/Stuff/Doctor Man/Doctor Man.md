@@ -6,4 +6,4 @@
 A man, a plan, a doctor.
 
 
-![calm.jpg](/img/user/Non%20Stuff/calm.jpg)![shinebirdlogo.png](/img/user/gallery/shinebirdlogo.png)
+![calm.jpg](/img/user/Non%20Stuff/calm.jpg)
