@@ -45,7 +45,7 @@
         
         // Filter quotes to include only non-empty and sufficiently long quotes
         quotes.forEach(function(quote) {
-            if (quote.textContent.trim().length > 0 && quote.textContent.trim().length >= 10) {
+            if (quote.textContent.trim().length > 1 && quote.textContent.trim().length >= 10) {
                 validQuotes.push(quote);
             }
         });
