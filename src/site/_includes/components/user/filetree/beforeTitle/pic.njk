@@ -10,6 +10,7 @@
             background-color: transparent;
             padding: 20px;
             border-radius: 10px;
+            font-size: 12pt; /* Font size adjustment */
         }
         
         .quote {
@@ -18,9 +19,20 @@
             display: none; /* Hide all quotes initially */
         }
 
-        /* Ensure one quote is always visible */
-        .quote:first-child {
-            display: block;
+        /* Ensure one quote is randomly selected */
+        .quote:nth-child(1) { order: 1; }
+        .quote:nth-child(2) { order: 2; }
+        .quote:nth-child(3) { order: 3; }
+        .quote:nth-child(4) { order: 4; }
+        .quote:nth-child(5) { order: 5; }
+        .quote:nth-child(6) { order: 6; }
+        
+        .quote-container:hover .quote {
+            display: none; /* Hide all quotes on hover */
+        }
+        
+        .quote-container:hover .quote:nth-child(1) {
+            display: block; /* Show the first quote on hover */
         }
     </style>
 </head>
@@ -37,6 +49,9 @@
     <p class="quote">powerful shins, excellent shin strength</p>
     <p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
     <p class="quote">is that bradley?</p>
+    <p class="quote">this is another quote</p>
+    <p class="quote">here's yet another quote</p>
+    <p class="quote">one more for good measure</p>
 </div>
 
 </body>
