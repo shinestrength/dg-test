@@ -51,5 +51,14 @@
     <p class="quote">one more for good measure</p>
 </div>
 
+<script>
+    // JavaScript for randomizing quotes
+    document.addEventListener('DOMContentLoaded', function() {
+        var quotes = document.querySelectorAll('.quote');
+        var randomIndex = Math.floor(Math.random() * quotes.length);
+        quotes[randomIndex].style.display = 'block';
+    });
+</script>
+
 </body>
 </html>
