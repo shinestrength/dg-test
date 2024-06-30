@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Meow 1</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:!0})</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",()=>{document.querySelectorAll(".callout").forEach(e=>{var t,l,c=getComputedStyle(e).getPropertyValue("--callout-icon"),c=c&&c.trim().replace(/^lucide-/,"");c&&(e=e.querySelector(".callout-title"))&&(t=document.createElement("div"),l=document.createElement("i"),t.appendChild(l),l.setAttribute("icon-name",c),t.setAttribute("class","callout-icon"),e.insertBefore(t,e.firstChild))}),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach(t=>{t.querySelector(".callout-title").addEventListener("click",e=>{t.classList.contains("is-collapsed")?t.classList.remove("is-collapsed"):t.classList.add("is-collapsed")})})})</script>
+<script src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer="defer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.b8753c11.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/ustyle.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i icon-name="menu"></i></span>
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">▪</h1>
+</a>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>.quote-container{text-align:center;background-color:transparent;padding:2px;border-radius:2px}.quote{font-size:11pt;color:grey;display:none;font-style:italic}</style>
+</head>
+<body>
+<a id="logo" class="internal-link" href="/"><img src="https://raw.githubusercontent.com/shinestrength/dg-test/dd1a94408e7114036b6781773d69eb9a5e5c3645/src/site/img/user/gallery/shinebirdlogosml.png" alt="Socials"></a>
+<p align="center">
+<a href="https://www.instagram.com/shinestrength/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+<a href="https://x.com/shinestrength"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+</p>
+<div class="quote-container">
+<p class="quote">powerful shins, excellent shin strength</p>
+<p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
+<p class="quote">is that bradley?</p>
+<p class="quote">multiskin? what's that?</p>
+</div>
+<script>function displayRandomQuote(){var o=document.querySelectorAll(".quote"),t=[];o.forEach(function(o){1<o.textContent.trim().length&&10<=o.textContent.trim().length&&t.push(o)}),0<t.length?(o=Math.floor(Math.random()*t.length),t[o].style.display="block"):console.error("No valid quotes found.")}window.onload=displayRandomQuote</script>
+</body>
+</html>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<nav class="filetree-sidebar" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<a href="/" style="text-decoration:none">
+<h1 style="text-align:center">▪</h1>
+</a>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>.quote-container{text-align:center;background-color:transparent;padding:2px;border-radius:2px}.quote{font-size:11pt;color:grey;display:none;font-style:italic}</style>
+</head>
+<body>
+<a id="logo" class="internal-link" href="/"><img src="https://raw.githubusercontent.com/shinestrength/dg-test/dd1a94408e7114036b6781773d69eb9a5e5c3645/src/site/img/user/gallery/shinebirdlogosml.png" alt="Socials"></a>
+<p align="center">
+<a href="https://www.instagram.com/shinestrength/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+<a href="https://x.com/shinestrength"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+</p>
+<div class="quote-container">
+<p class="quote">powerful shins, excellent shin strength</p>
+<p class="quote">the toothians communicate via [makes tooth clacking sounds]</p>
+<p class="quote">is that bradley?</p>
+<p class="quote">multiskin? what's that?</p>
+</div>
+<script>function displayRandomQuote(){var o=document.querySelectorAll(".quote"),t=[];o.forEach(function(o){1<o.textContent.trim().length&&10<=o.textContent.trim().length&&t.push(o)}),0<t.length?(o=Math.floor(Math.random()*t.length),t[o].style.display="block"):console.error("No valid quotes found.")}window.onload=displayRandomQuote</script>
+</body>
+</html>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/writing/">Writing </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Comics')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Comics</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Comics/Approach')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Approach</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Comics/Approach/Chapters')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Chapters</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-1/">Approach 1 1 1 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-2-1-1-1-1-1/">Approach 1 1 1 1 2 1 1 1 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-2-1-1-1-1/">Approach 1 1 1 1 2 1 1 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-2-1-1-1/">Approach 1 1 1 1 2 1 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-2-1-1/">Approach 1 1 1 1 2 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-2-1/">Approach 1 1 1 1 2 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1-2/">Approach 1 1 1 1 2 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1-1/">Approach 1 1 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1-1/">Approach 1 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1-1/">Approach 1 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach-1/">Approach 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/approach/">Approach </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch1/">ch1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch2/">ch2 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch3/">ch3 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch4/">ch4 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch5/">ch5 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch6/">ch6 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch7/">ch7 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapters/ch8/">ch8 </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/chapter-list/">chapter list </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Non Stuff')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Non Stuff</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/non-stuff/shinestrength/">shinestrength </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/non-stuff/true-max-width-for-real-yo/">True Max Width for real yo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Stuff')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Stuff</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Stuff/Doctor Man')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Doctor Man</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/stuff/doctor-man/doctor-man/">Doctor Man </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/stuff/yet-more-stuff/">Yet More Stuff </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Writing')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Writing</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Writing/Entries')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Entries</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+</div>
+<div x-show="isOpen" style="display:none" class="">
+</div>
+<div x-show="isOpen" style="display:none" class="">
+</div>
+</div>
+</nav>
+</div>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+<br>
+<br>
+<br>
+<br>
+</header>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in felis et arcu accumsan dictum in et est. Proin ac ex a dui lobortis laoreet in sed nulla. Integer interdum erat sed porttitor ullamcorper. Ut viverra lacinia tempor. Etiam vulputate magna id nibh iaculis cursus. Nam euismod libero consectetur ante malesuada aliquet. Integer ac vulputate augue. Maecenas iaculis erat vel felis gravida, et dignissim tortor suscipit. Donec et faucibus orci. Proin ac sollicitudin lacus. Vivamus feugiat massa non dui mollis suscipit. In eget ultrices sem, a pretium lectus.</p>
+<p>Proin convallis risus eu leo malesuada consequat. Proin est dui, blandit id mi ut, molestie auctor dolor. Integer posuere diam magna, sed pellentesque sem suscipit ut. Mauris quis diam quis libero lacinia congue at at tellus. Proin gravida, tortor in lacinia euismod, nisi enim dictum lorem, a tempus odio tortor at lacus. Etiam convallis ligula a magna ullamcorper commodo. Donec sed rutrum ligula. In porta facilisis ante, nec sagittis dolor mattis sed. Nullam auctor vel enim eget semper. Morbi et arcu ac arcu dictum placerat.</p>
+<p>Mauris ullamcorper fermentum aliquam. Nulla suscipit elit ut dui iaculis, quis varius ligula bibendum. Curabitur imperdiet convallis venenatis. Nulla dictum imperdiet nisl, sed aliquet urna rutrum nec. Mauris rhoncus, ex nec eleifend finibus, ex nisl ultrices nibh, eget mattis nulla ligula egestas elit. Donec placerat pellentesque ligula vel interdum. Nam vitae egestas nisl, non mollis magna. In metus eros, hendrerit sed faucibus id, molestie non lorem. Pellentesque fringilla porta diam quis dapibus. Phasellus volutpat est et efficitur tempor. Integer sapien risus, efficitur in molestie placerat, suscipit nec dui. Nunc condimentum, metus et faucibus suscipit, ipsum enim consectetur urna, in dignissim purus purus sit amet mi. Mauris dolor turpis, tempus in maximus eu, elementum eu turpis. Suspendisse imperdiet libero at sodales tincidunt.</p>
+<p>Duis vestibulum metus non pellentesque congue. Nullam et fringilla purus, at consequat lorem. Proin sollicitudin porta leo a interdum. Nulla eget vehicula urna. Sed odio nunc, tincidunt at tempor id, tempus ac nibh. Duis tellus diam, venenatis sed semper ut, molestie et lacus. Integer arcu nulla, dapibus ut lobortis efficitur, iaculis ac libero. Sed sit amet condimentum sem. Donec sed sapien nec metus mattis malesuada eu in magna. Nunc id odio non diam maximus ullamcorper vel nec leo. In non tincidunt turpis. Etiam diam sapien, consectetur ac velit consectetur, consectetur pharetra est. Donec condimentum lorem in est fringilla, congue aliquam mauris dictum. Cras nisl arcu, consequat ac ex lobortis, lacinia volutpat ex.</p>
+<p>Fusce fringilla at mauris et scelerisque. Duis vitae turpis nibh. Curabitur porttitor venenatis ligula, vel iaculis mi auctor a. In odio diam, iaculis nec mauris vitae, volutpat imperdiet augue. Donec eleifend auctor velit eget euismod. Phasellus rhoncus lorem lectus, ut tincidunt libero cursus commodo. Aenean lectus libero, dapibus a porttitor non, iaculis dignissim arcu. Vivamus mi mauris, cursus eget odio eget, convallis iaculis odio. Aenean at mauris quis neque facilisis ornare sit amet ac purus. Nulla eget egestas diam, quis laoreet tortor. Mauris eu efficitur lacus, id semper erat. Nam pretium eget purus vitae blandit. Vivamus sit amet convallis dolor.</p>
+<br>
+<br>
+<br>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",e=>{var t=e.oldURL.split("#"),t=(t[1]&&document.getElementById(t[1]).classList.remove("referred"),e.newURL.split("#"));t[1]&&document.getElementById(t[1]).classList.add("referred")},!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function(e){e.ondblclick=function(e){e=url+"#"+e.target.id;navigator.clipboard.writeText(e)}})</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach(function(e){date=e.getAttribute("data-date")||e.innerText,null!=(parsed_date=null!=(parsed_date=luxon.DateTime.fromISO(date)).invalid?luxon.DateTime.fromSQL(date):parsed_date).invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)})</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
