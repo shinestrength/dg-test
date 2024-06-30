@@ -7,7 +7,8 @@
  Hi, I'm a face. I'm a visual artist based in Auckland, New Zealand. You might be interested in the [[Writing\|Writing]], or what I'm up to now. 
 
 
- This is a test [[Non Stuff/shinestrength\|shinestrength]]
+ This is a test [[Non Stuff/shinestrength\|shinestrength]] yes
+ 
 
 
 <center>
