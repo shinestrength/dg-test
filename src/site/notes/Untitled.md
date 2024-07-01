@@ -8,3 +8,8 @@ Maybe you wanted to visit my portfolio site instead? [It's here.](www.shinestren
 
 Thanks for stopping by. 
 
+
+Here's a test embed of a comic from archive.org!
+
+<iframe src="https://archive.org/embed/027_20240628" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
