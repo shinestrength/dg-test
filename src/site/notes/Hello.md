@@ -11,11 +11,8 @@ Maybe you wanted to visit my portfolio site instead? [It's here.](https://www.sh
 Thanks for stopping by. 
 
 
-
-
 ![4.jpg](/img/user/gallery/4.jpg)
 
-<br>
 Or, while you're here -  you could read House.
 
 <br><br>
