@@ -11,8 +11,14 @@ Maybe you wanted to visit my portfolio site instead? [It's here.](https://www.sh
 Thanks for stopping by. 
 
 
+
+
+![4.jpg](/img/user/gallery/4.jpg)
+
+<br>
 Or, while you're here -  you could read House.
 
 <br><br>
-<center><iframe src="https://archive.org/embed/027_20240628" width=100% height=100% frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
-![4.jpg](/img/user/gallery/4.jpg)
+<center><iframe src="https://archive.org/embed/027_20240628" width=100% height=1000px= frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
+
+
