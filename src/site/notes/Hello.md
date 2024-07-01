@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/hello/","pinned":"true","tags":["gardenEntry"]}
 ---
 
-# Hello!
+###### Hello!
 
 This is a landing page for my sketchbook/zine projects. At the moment nothing is really here, apart from some test junk. 
 
