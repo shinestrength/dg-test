@@ -14,7 +14,5 @@ Thanks for stopping by.
 Or, while you're here -  you could read House.
 
 <br><br>
-<center><iframe src="https://archive.org/embed/027_20240628" width=100% height=1100px frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
-
+<center><iframe src="https://archive.org/embed/027_20240628" width=100% height=100% frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
 ![4.jpg](/img/user/gallery/4.jpg)
-
