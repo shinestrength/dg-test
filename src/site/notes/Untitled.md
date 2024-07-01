@@ -2,5 +2,9 @@
 {"dg-publish":true,"permalink":"/untitled/","tags":["gardenEntry"]}
 ---
 
-This is a test. okok1111
-test test test 
+Hello! This is a landing page for my sketchbook/zine projects. At the moment nothing is really here, apart from some test junk. 
+
+Maybe you wanted to visit my portfolio site instead? [It's here.](www.shinestrength.xyz)
+
+Thanks for stopping by. 
+
