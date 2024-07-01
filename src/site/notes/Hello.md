@@ -12,10 +12,3 @@ Thanks for stopping by.
 
 
 ![4.jpg](/img/user/gallery/4.jpg)
-
-Or, while you're here -  you could read House.
-
-<br><br>
-<center><iframe src="https://archive.org/embed/027_20240628" width=100% height=1000px= frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
-
-
