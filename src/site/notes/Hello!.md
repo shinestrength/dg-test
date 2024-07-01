@@ -9,7 +9,7 @@ Maybe you wanted to visit my portfolio site instead? [It's here.](https://www.sh
 Thanks for stopping by. 
 
 
-Here's a test embed of a comic from archive.org! ok!
+Or.. you could read House.
 
-<center><iframe src="https://archive.org/embed/027_20240628" width="880" height="900" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
+<center><iframe src="https://archive.org/embed/027_20240628" width=100% height="900" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></center>
 
