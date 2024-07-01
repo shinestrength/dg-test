@@ -4,7 +4,7 @@
 
 Hello!
 
-This is a landing page for my sketchbook/zine projects. At the moment nothing is really here, apart from some test junk. 
+This is a landing page for my sketchbook/zine projects. At the moment nothing is really here, but that will change. 
 
 Maybe you wanted to visit my portfolio site instead? [It's here.](https://www.shinestrength.xyz/)
 
