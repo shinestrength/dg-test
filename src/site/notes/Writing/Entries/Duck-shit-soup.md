@@ -16,6 +16,6 @@ Maybe I am angry. I'm being clipped by the fear of the world.
 
 Contorting faces now, helmed with plated clear raspberry steel, pink faced and sniffing the air, become a hundred shadows in coffee shop windows, a tiny tourist box. 
 
-Today two ducks guard the center of the court and I walk around them, aiming to please any onlookers into thinking I'm some sort of environmental god - one in touch with his natural self, a respecter of all life. I know that my incapabilties and fear drive me more than my acceptance. I should stop pleasing onlookers.
+Today two ducks guard the center of the court and I walk around them, aiming to please any onlookers into thinking I'm some sort of environmental god - one in touch with his natural self, a respecter of all life. I know that my incapabilties and fear drive me more than my acceptance. I should stop pleasing those onlookers.
 
 
