@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Duck-shit-soup.md","permalink":"/duck-shit-soup/","dgEnableSearch":"false"}
+{"dg-publish":true,"dg-path":"Duck-shit-soup.md","permalink":"/duck-shit-soup/","hide":true,"dgEnableSearch":"false"}
 ---
 
 
