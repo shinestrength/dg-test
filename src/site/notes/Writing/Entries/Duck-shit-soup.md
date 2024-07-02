@@ -6,7 +6,7 @@
 ![2024-07-02.png](/img/user/gallery/2024-07-02.png)
 
 
-A glass of water.  A hand grabs it. I dream of Sailor Moon, usually. I wake up angry, someone was hitting me with a stick, over and over. I cannot help but get up underneath the pond. I imagine the reeds cover, and the indifferent water.
+..A glass of water.  A hand grabs it. I dream of Sailor Moon, usually. I wake up angry, someone was hitting me with a stick, over and over. I cannot help but get up underneath the pond. I imagine the reeds cover, and the indifferent water.
 
 A thousand flesh bare animated dolls, accepting men and women around the world. Duck shit, absolutely everywhere. I walk the same path every day, and it does not get any cleaner. Some fucking kid chasing a swan, pisses me off. 
 
