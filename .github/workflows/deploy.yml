@@ -31,4 +31,4 @@ jobs:
       with:
         github_token: ${{ secrets.GH_TOKEN }}
         publish_dir: ./dist
-        cname: raw.shinestrength.xyz 
+        cname: mmm.shinestrength.xyz 
