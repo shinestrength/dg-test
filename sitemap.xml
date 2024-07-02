@@ -3,32 +3,37 @@
     
         <url>
             <loc>/404/</loc>
-            <lastmod>2024-07-01T10:31:17.036Z</lastmod>
+            <lastmod>2024-07-02T00:00:12.632Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/comics/approach/</loc>
+            <lastmod>2024-07-02T00:00:12.640Z</lastmod>
         </url>
     
         <url>
             <loc>/</loc>
-            <lastmod>2024-07-01T10:31:17.044Z</lastmod>
+            <lastmod>2024-07-02T00:00:12.640Z</lastmod>
         </url>
     
         <url>
             <loc>/stuff/approach/</loc>
-            <lastmod>2024-07-01T10:31:17.044Z</lastmod>
+            <lastmod>2024-07-02T00:00:12.640Z</lastmod>
         </url>
     
         <url>
             <loc>/writing/</loc>
-            <lastmod>2024-07-01T10:31:17.044Z</lastmod>
+            <lastmod>2024-07-02T00:00:12.640Z</lastmod>
         </url>
     
         <url>
-            <loc>/writing/entries/meow/</loc>
-            <lastmod>2024-07-01T10:31:17.044Z</lastmod>
+            <loc>/meow/</loc>
+            <lastmod>2024-07-02T00:00:12.640Z</lastmod>
         </url>
     
         <url>
-            <loc>/gallery/icons-unpublished-zone/</loc>
-            <lastmod>2024-07-01T10:31:17.044Z</lastmod>
+            <loc>/icons-unpublished-zone/</loc>
+            <lastmod>2024-07-02T00:00:12.640Z</lastmod>
         </url>
     
 </urlset>

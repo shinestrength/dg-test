@@ -98,13 +98,15 @@
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('gallery')}" @click.stop="isOpen=!isOpen">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Comics')}" @click.stop="isOpen=!isOpen">
 <div class="foldername-wrapper align-icon">
 <i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
 <i x-show="!isOpen" icon-name="chevron-right"></i>
-<span class="foldername">gallery</span>
+<span class="foldername">Comics</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/comics/approach/">Approach </a>
+</div>
 </div>
 </div>
 </div>
@@ -122,24 +124,8 @@
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Writing')}" @click.stop="isOpen=!isOpen">
-<div class="foldername-wrapper align-icon">
-<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
-<i x-show="!isOpen" icon-name="chevron-right"></i>
-<span class="foldername">Writing</span>
 </div>
-<div x-show="isOpen" style="display:none" class="filelist">
-<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Writing/Entries')}" @click.stop="isOpen=!isOpen">
-<div class="foldername-wrapper align-icon">
-<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
-<i x-show="!isOpen" icon-name="chevron-right"></i>
-<span class="foldername">Entries</span>
-</div>
-<div x-show="isOpen" style="display:none" class="filelist">
-</div>
-</div>
-</div>
-</div>
+<div x-show="isOpen" style="display:none" class="">
 </div>
 </div>
 </nav>
@@ -155,7 +141,7 @@
 </header>
 <h1 id="writing" tabindex="-1">Writing</h1>
 <ul class="block-language-dataview">
-<li><a class="internal-link" target="" data-note-icon="" href="/writing/entries/meow/">Meow</a>: June 14, 2023</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/meow/">Meow</a>: June 14, 2023</li>
 <li><a class="internal-link is-unresolved" href="/404" target="">Duck-shit-soup</a>: July 01, 2024</li>
 </ul>
 <br>
